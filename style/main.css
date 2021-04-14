@@ -5,7 +5,7 @@
 }
     * {
         box-sizing: border-box;
-        
+        margin : 0;
       }
       
    
@@ -43,7 +43,7 @@
     {
      
     width: 16rem;
-    height: 4rem;
+    height: 3rem;
     flex-grow: 0;
     display: flex;
     flex-direction: row;
@@ -52,6 +52,9 @@
     gap: 10px;
     padding: 0.3rem 2rem;
     border-radius: 50px;
+    background-color: white;
+    
+
     
 
 
@@ -59,15 +62,16 @@
     /* Text */
 
     flex-grow: 0;
-    font-family: Inter;
-    font-size: 0.9rem;
+    font-family: Inter ;
+    font-size: 1rem;
     font-weight: 900;
     font-stretch: normal;
     font-style: normal;
-    line-height: 4;
+    line-height: 2.7rem;
     letter-spacing: 0.48px;
-    text-align: left;
-    color: var(--brand-impress-pinky);
+    text-align: center;
+    color: red;
+    
 
     }
 
@@ -78,10 +82,38 @@
     
       .right {
         width: 50%;
-        background-color: purple;
+        background-color: white;
       }
 
-       
+    
+    /* BIG TEXT */
+  h1
+  {
+  width: 34.938rem;
+  height: 11rem;
+  flex-grow: 0;
+  font-family: Poppins;
+  font-size: 4rem;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: -1px;
+  text-align: left;
+  color: white;
+
+  }
+/* Hand */
+
+
+
+.a2{
+object-fit: contain;
+height: 100%;
+width: 100%;
+margin-left: 50%;
+margin-right: 50%;
+}
 
 
 
